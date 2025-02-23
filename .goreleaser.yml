@@ -1,0 +1,15 @@
+version: 2
+project_name: sigstore-kms-alibabakms
+builds:
+  - env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+      - darwin
+      - windows
+    goarch:
+      - amd64
+      - arm64
+
+snapshot:
+  name_template: "{{ .Tag }}-next"
