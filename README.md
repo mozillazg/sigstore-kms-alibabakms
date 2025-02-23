@@ -2,6 +2,19 @@
 
 A [sigstore](https://sigstore.dev) KMS plugin for [Alibaba Cloud KMS](https://www.alibabacloud.com/en/product/kms).
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Credentials](#credentials)
+- [Usage](#usage)
+   - [Key Generation and Management](#key-generation-and-management)
+      - [Generate keys](#generate-keys)
+      - [Retrieve the Public Key](#retrieve-the-public-key)
+   - [Signing and Verification](#signing-and-verification)
+      - [Sign an image](#sign-an-image)
+      - [Verify an image](#verify-an-image)
+- [URI Format](#uri-format)
+
 
 ## Installation
 
@@ -168,7 +181,7 @@ The following checks were performed on each of these signatures:
 
 The URI used with the --key and --kms flag follows these formats:
 
-* With alias name: `alibabakms://$ENDPOINT/[$INSTANCE_ID]//alias/$ALIAS_NAME`
+* With alias name: `alibabakms://$ENDPOINT/[$INSTANCE_ID]/alias/$ALIAS_NAME`
 * With key ID and version: `alibabakms://$ENDPOINT/[$INSTANCE_ID]/$KEY_ID/versions/$KEY_VERSION_ID`
 
 Valid Examples:
