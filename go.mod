@@ -1,6 +1,7 @@
 module github.com/mozillazg/sigstore-kms-alibabakms
 
 go 1.23.3
+
 require (
 	github.com/AliyunContainerService/ack-ram-tool/pkg/credentials/provider v0.16.1
 	github.com/alibabacloud-go/darabonba-openapi/v2 v2.0.10
@@ -8,7 +9,7 @@ require (
 	github.com/alibabacloud-go/tea v1.3.2
 	github.com/aliyun/credentials-go v1.4.5
 	github.com/jellydator/ttlcache/v3 v3.3.0
-	github.com/sigstore/sigstore v1.8.15
+	github.com/sigstore/sigstore v1.9.1
 	github.com/stretchr/testify v1.10.0
 )
 
@@ -29,9 +30,8 @@ require (
 	github.com/clbanning/mxj/v2 v2.7.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/go-jose/go-jose/v4 v4.0.5 // indirect
-	github.com/google/go-containerregistry v0.20.2 // indirect
+	github.com/google/go-containerregistry v0.20.3 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/kr/pretty v0.3.1 // indirect
 	github.com/letsencrypt/boulder v0.0.0-20240620165639-de9c06129bec // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
@@ -43,11 +43,11 @@ require (
 	github.com/tjfoc/gmsm v1.4.1 // indirect
 	golang.org/x/crypto v0.35.0 // indirect
 	golang.org/x/net v0.36.0 // indirect
-	golang.org/x/sync v0.8.0 // indirect
+	golang.org/x/sync v0.10.0 // indirect
 	golang.org/x/sys v0.30.0 // indirect
 	golang.org/x/term v0.29.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20240520151616-dc85e6b867a5 // indirect
-	google.golang.org/protobuf v1.36.4 // indirect
+	google.golang.org/protobuf v1.36.5 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
