@@ -7,7 +7,7 @@ require (
 	github.com/alibabacloud-go/darabonba-openapi/v2 v2.0.10
 	github.com/alibabacloud-go/kms-20160120/v3 v3.2.3
 	github.com/alibabacloud-go/tea v1.3.2
-	github.com/aliyun/credentials-go v1.4.5
+	github.com/aliyun/credentials-go v1.4.7
 	github.com/jellydator/ttlcache/v3 v3.3.0
 	github.com/sigstore/sigstore v1.9.1
 	github.com/stretchr/testify v1.10.0
