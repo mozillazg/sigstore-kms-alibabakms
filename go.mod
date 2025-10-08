@@ -3,7 +3,7 @@ module github.com/mozillazg/sigstore-kms-alibabakms
 go 1.23.3
 
 require (
-	github.com/AliyunContainerService/ack-ram-tool/pkg/credentials/provider v0.16.1
+	github.com/AliyunContainerService/ack-ram-tool/pkg/credentials/provider v0.18.1
 	github.com/alibabacloud-go/darabonba-openapi/v2 v2.0.10
 	github.com/alibabacloud-go/kms-20160120/v3 v3.2.3
 	github.com/alibabacloud-go/tea v1.3.2
@@ -14,6 +14,7 @@ require (
 )
 
 require (
+	github.com/AliyunContainerService/ack-ram-tool/pkg/ecsmetadata v0.0.7 // indirect
 	github.com/alibabacloud-go/alibabacloud-gateway-pop v0.0.6 // indirect
 	github.com/alibabacloud-go/alibabacloud-gateway-spi v0.0.5 // indirect
 	github.com/alibabacloud-go/darabonba-array v0.1.0 // indirect
